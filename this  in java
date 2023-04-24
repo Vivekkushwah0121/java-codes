@@ -1,0 +1,27 @@
+package hello;
+
+class This{
+	int date;
+	int number;
+	String hi;
+	
+	This(int date, int number, String hi){
+		this.date=date;
+		this.number=number;
+		this.hi=hi;
+		
+		
+	}
+
+void man() {
+	System.out.println(date+" "+ number+ " "+ hi);
+	
+}
+public static void main(String[] args) {
+	This a1=new This(20, 99, "hi there");
+	This a2= new This(50,100,"Welcome Sir");
+	a1.man();
+	a2.man();
+	
+	
+}}
