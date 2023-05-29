@@ -1,0 +1,25 @@
+
+public class SimpleObject {
+	int length; 
+	int breadth;
+	int height;
+	SimpleObject() {
+		
+		this.length=10;
+		this.breadth=20;
+		this.height=30;
+	}
+	void display() {
+		System.out.println( length+"cm");
+		System.out.println(breadth+"cm" );
+		System.out.println(height+"cm");
+		
+	}
+	public static void main(String[] args) {
+		SimpleObject obj= new SimpleObject();
+			
+			obj.display();
+		
+	}
+
+}
