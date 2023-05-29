@@ -1,0 +1,58 @@
+ class Shapes {
+	void draw() {
+		System.out.println("creating Shape ");
+	}
+	void erase() {
+		System.out.println("Erasing shape");
+	}
+	}
+	
+	class Circle extends Shapes{
+		
+		void draw() {
+			System.out.println("Circle is drawn");
+			}
+		void erase() {
+			System.out.println("Circle is erased");
+		}
+	}
+
+	class Triangle extends Shapes{
+		void draw() {
+			System.out.println("Triangle is drawn");
+			
+		}
+		void erase() {
+			System.out.println("Triangle is erased");
+		}
+	}
+	
+	 class Square extends Shapes{
+		void draw() {
+			System.out.println("Square is drawn");
+		}
+		void erase() {
+			System.out.println("Square is erased");
+		}
+	 }
+	 
+	 public class Shape{
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Shapes shape1 = new Circle();
+		Shapes shape2 = new Triangle();
+		Shapes shape3 = new Square();
+		shape1.draw();
+		shape1.erase();
+		shape2.draw();
+		shape2.erase();
+		shape3.draw();
+		shape3.erase();
+	
+	
+		
+		
+
+	}
+	 }
