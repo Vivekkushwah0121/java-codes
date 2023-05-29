@@ -1,0 +1,18 @@
+
+public class lab5 {
+	 private  static int staticvariable;
+	 private int instancevariable;
+	 static {
+		 System.out.println("Static block executed");
+		 staticvariable=10;
+		 
+	 }
+	 public static void staticmethod() {
+		 System.out.println("static method executed");
+		 System.out.println("the value of static variable is " + staticvariable);
+	 }
+	 public static void main(String[] args) {
+		 lab5.staticmethod();
+		 
+	 }
+	
