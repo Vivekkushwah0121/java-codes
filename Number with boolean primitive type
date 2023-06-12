@@ -79,7 +79,7 @@ class Number {
 
 public class NumberMain {
 
-	public static void main() {
+	public static void main(String[] args) {
 		Number n1= new Number(10);
 		System.out.println("zero=" + n1.isZero());
 		System.out.println("positive= " + n1.isPositive());
