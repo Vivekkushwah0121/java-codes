@@ -1,0 +1,33 @@
+class A
+{
+	String msg = "hello i am in class";
+	void getmsg()
+	{
+		System.out.println(msg);
+	}
+	}
+	class B extends A{
+		void getBmsg() {
+			System.out.println("this is new msg by class B");
+	
+	}
+}
+	class C extends B{
+		void getCmsg() {
+			System.out.println("this is class c");
+			
+		}
+	}
+
+public class InheritanceEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		C c1 =new C();
+		c1.getCmsg();
+		c1.getmsg();
+		c1.getBmsg();
+
+	}
+
+}
