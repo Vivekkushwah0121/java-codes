@@ -1,0 +1,22 @@
+abstract class Marine {
+	abstract void  luffy();
+	 void brook(){
+		 System.out.println("hi this is non abstract method in abstract class");
+		
+	}
+}
+class Navy extends Marine{
+	void luffy() {
+		System.out.println("this is the abstract class first method");
+		
+	}
+
+}
+
+ public class Sunny{
+	 public static void main(String [] args) {
+		 Navy coby = new Navy();
+		 coby.luffy();
+		 coby.brook();
+	 }
+ }
