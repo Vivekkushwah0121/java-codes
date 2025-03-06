@@ -15,7 +15,7 @@ class Navy extends Marine{
 
  public class Sunny{
 	 public static void main(String [] args) {
-		 Navy coby = new Navy();
+		 Marine coby = new Marine();
 		 coby.luffy();
 		 coby.brook();
 	 }
